@@ -1,0 +1,40 @@
+.alert{
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+
+.form-Search {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.peliculas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+
+}
+
+li
+{
+    list-style: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 200px;
+}
+
+.btnEliminar {
+    margin-top: 10px;
+}
