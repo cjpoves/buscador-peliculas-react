@@ -1,0 +1,19 @@
+a{
+    text-decoration: none;
+    background-color: #040A0F;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: yellow;
+}
+
+.navegacion {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}

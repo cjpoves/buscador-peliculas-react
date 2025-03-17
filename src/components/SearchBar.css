@@ -16,12 +16,6 @@
     gap: 20px;
 }
 
-.peliculas {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-
-}
 
 li
 {
@@ -37,4 +31,8 @@ img {
 
 .btnEliminar {
     margin-top: 10px;
+}
+
+.btnEliminar:hover {
+    background-color: red;
 }

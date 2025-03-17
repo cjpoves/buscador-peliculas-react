@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import { SearchBar } from './components/SearchBar'
+import { RoutesApp } from './Routes/RoutesApp'
 
 function App() {
 
 
   return (
     <>
-      <SearchBar/>
+      <RoutesApp/>
     </>
   )
 }
