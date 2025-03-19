@@ -26,7 +26,7 @@ export const NextMovies = () => {
             <NavBar/>
                 <h1>Proximos estrenos</h1>
 
-                <ul className="peliculas animate__animated animate__rotateIn">
+                <ul className="peliculas animate__animated animate__fadeInRight">
                     {peliculas.map((pelicula) => (
                                                                           
                         <NextMovies__Movies key={pelicula.id} pelicula={pelicula} />                   

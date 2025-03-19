@@ -17,3 +17,10 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 700px) {
+    .navegacion  {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
